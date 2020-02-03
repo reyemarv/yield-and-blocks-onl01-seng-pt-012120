@@ -7,7 +7,7 @@ i = 0
   end 
 end
 
-htllo_t(["Tim", "Tom", "Jim"]) do |name|
+hello_t(["Tim", "Tom", "Jim"]) do |name|
   if name.start_with?("T")
     puts "hi, #{name}"
     end
